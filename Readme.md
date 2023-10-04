@@ -1,4 +1,3 @@
-```markdown
 # Sistema de Gerenciamento de Itens de Compras
 
 Um sistema de gerenciamento de itens de compras que permite criar, listar, editar e excluir itens usando uma API e tanbém o local Storage do navegador.
@@ -6,6 +5,8 @@ Um sistema de gerenciamento de itens de compras que permite criar, listar, edita
 ## Descrição
 
 Este projeto consiste em um sistema de gerenciamento de itens que interage com uma API para criar, listar, editar e excluir itens. Ele foi desenvolvido em JavaScript,HTML e CSS, e faz uso de recursos como o Local Storage para armazenamento temporário dos itens e a API do crudcrud.
+
+https://crudcrud.com/
 
 ## Requisitos
 
@@ -20,7 +21,7 @@ Certifique-se de ter os seguintes requisitos antes de usar o sistema:
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-projeto.git
+   git clone https://github.com/ErivaldoCapitulino/listaComprasSantaderCode.git
    cd seu-projeto
    ```
 
