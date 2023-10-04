@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #1F1F1F;
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.informacao {
+  position: fixed;
+  width: 300px;
+  padding: 20px;
+  background: #FFFFFF;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #6A3B92;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.buttonFlex {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+
+.resposta {
+  margin-left: 320px;
+  padding: 50px;
+  color: #000000;
+  overflow: auto;
+}
+
+.divConteudo {
+  background: #6A3B92;
+  margin: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.separador {
+  margin: 10px;
+}
+
+
+.tamanho {
+  margin-left: 10px;
+  width: 40px;
+  height: 30px;
+}
+
+.listaCompra {
+  color: #6A3B92;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sair {
+  text-decoration: none;
+  color: #6A3B92;
+  font-weight: 900;
+}
+
+.separador {
+  width: 300px;
+  height: 1px;
+  background: #B4691F;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- No corpo do seu arquivo HTML -->
+    <div class="informacao">
+      <form id="itemForm">
+        <input type="text" id="novoItemNome" placeholder="Nome">
+        <input type="text" id="novoItemImagem" placeholder="Imagem URL">
+        <button type="submit" class="cadastrar">Cadastrar</button>
+      </form>
+
+      <div>
+        <input type="text" id="atualizarItemId" placeholder="ID do item">
+        <input type="text" id="atualizarItemNome" placeholder="Novo nome do item">
+        <input type="text" id="atualizarItemImagem" placeholder="Nova URL da imagem">
+        <button type="submit" class="atualizar">Atualizar</button>
+      </div>
+
+      <div>
+        <input type="text" id="excluirItemId" placeholder="ID do item a ser excluído">
+        <button class="excluir">Excluir</button>
+      </div>
+
+      <input type="text" id="buscarItemId" placeholder="ID do item a ser buscado">
+      <div class="buttonFlex">
+        <div>
+          <button type="submit" class="buscar">Buscar por ID</button>
+        </div>
+
+        <div>
+          <button class="listar">Listar Todos</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="resposta">
+      <h1 class="listaCompra">Lista de Compra</h1>
+      <a class="sair" href="#" onclick="sair()">SAIR</a>
+      <div class="conteudo"></div>
+    </div>
+
+  </div>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
